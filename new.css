@@ -1,0 +1,109 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo y colores generales */
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #F5E6D3;
+    color: #1A2C4E;
+    line-height: 1.6;
+}
+
+/* Cabecera */
+header {
+    background: linear-gradient(45deg, #1A2C4E, #2A3C5E);
+    padding: 2rem 0;
+    text-align: center;
+    color: #C0A060;
+}
+
+header h1 {
+    font-family: Georgia, Garamond, serif;
+    font-size: 2.5rem; /* 40px */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+    font-size: 1rem; /* 16px */
+}
+
+/* Contenedor principal */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Secciones de noticias */
+section h2 {
+    font-size: 2rem; /* 32px */
+    margin-bottom: 3rem; /* 48px */
+}
+
+/* Artículos */
+article {
+    margin-bottom: 2rem; /* 32px */
+    background-color: #FFFFFF;
+    border: 1px solid rgba(192,160,96,0.2);
+    border-radius: 8px;
+    padding: 1.25rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+article h3 {
+    font-size: 1.75rem; /* 28px */
+    color: #1A3C8C;
+    margin-bottom: 1rem;
+}
+
+article p {
+    font-size: 1rem; /* 16px */
+    margin-bottom: 1rem;
+}
+
+article .fecha {
+    font-size: 0.875rem; /* 14px */
+    color: #707070;
+}
+
+/* Noticias breves */
+aside {
+    margin-top: 3rem; /* 48px */
+}
+
+aside h2 {
+    font-size: 2rem; /* 32px */
+    margin-bottom: 1rem;
+}
+
+aside ul {
+    list-style-type: none;
+    font-size: 0.875rem; /* 14px */
+}
+
+aside li {
+    margin-bottom: 0.5rem;
+}
+
+/* Enlaces */
+a {
+    color: #1A3C8C;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #C0A060;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #1A2C4E;
+    color: #C0A060;
+}
